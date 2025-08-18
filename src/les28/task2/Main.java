@@ -1,0 +1,8 @@
+package les28.task2;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Color color = Color.RED;
+    }
+}
