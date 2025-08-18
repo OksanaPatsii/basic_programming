@@ -5,7 +5,7 @@ public class Main {
 
         Figure[] figure = new Figure[3];
 
-        figure[0] = new  Circle(7);
+        figure[0] = new Circle(7);
         figure[1] = new Rectangle(8, 12);
         figure[2] = new Square(17);
 
@@ -14,7 +14,6 @@ public class Main {
             System.out.println("Quadrat: " + figure[i].getArea());
             System.out.println("Perimeter: " + figure[i].getPerimeter());
             System.out.println();
-
         }
     }
 }
