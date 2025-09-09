@@ -25,6 +25,18 @@ public class Cat implements Comparable<Cat> {
         return weight;
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof Cat cat)) return false;
